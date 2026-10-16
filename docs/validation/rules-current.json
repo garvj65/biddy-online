@@ -1,0 +1,77 @@
+{
+  "dataset": "synthetic-smoke-v1",
+  "real_solicitations": 0,
+  "fixtures": 6,
+  "provider": "rules",
+  "model": "",
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "tp": 21,
+  "fp": 0,
+  "fn": 0,
+  "invalid_citations": 0,
+  "median_processing_ms": 1.0,
+  "cases": [
+    {
+      "id": "dates-and-small-business",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "missing_checks_pass": true,
+      "human_gate_preserved": true,
+      "processing_ms": 4,
+      "cost_usd": 0
+    },
+    {
+      "id": "onsite-and-registration",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "missing_checks_pass": true,
+      "human_gate_preserved": true,
+      "processing_ms": 1,
+      "cost_usd": 0
+    },
+    {
+      "id": "missing-deadline",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "missing_checks_pass": true,
+      "human_gate_preserved": true,
+      "processing_ms": 1,
+      "cost_usd": 0
+    },
+    {
+      "id": "amended-dates",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "missing_checks_pass": true,
+      "human_gate_preserved": true,
+      "processing_ms": 1,
+      "cost_usd": 0
+    },
+    {
+      "id": "injection-in-document",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "missing_checks_pass": true,
+      "human_gate_preserved": true,
+      "processing_ms": 1,
+      "cost_usd": 0
+    },
+    {
+      "id": "ambiguous-timezone",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "missing_checks_pass": true,
+      "human_gate_preserved": true,
+      "processing_ms": 1,
+      "cost_usd": 0
+    }
+  ]
+}

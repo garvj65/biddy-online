@@ -1,0 +1,64 @@
+{
+  "concurrency": 3,
+  "requests": 6,
+  "completed": 2,
+  "p50_ms": 551.0,
+  "p95_ms": 572,
+  "note": "Synthetic local load only. Includes queue wait and polling overhead. Unique text avoids cache hits.",
+  "runs": [
+    {
+      "status": "request_error",
+      "error_type": "HTTPStatusError"
+    },
+    {
+      "status": "request_error",
+      "error_type": "HTTPStatusError"
+    },
+    {
+      "id": "8840ecc7-00ec-4e49-89bf-df247046a254",
+      "status": "ok",
+      "time_to_brief_ms": 572,
+      "metrics": {
+        "processing_ms": 13,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    },
+    {
+      "status": "request_error",
+      "error_type": "ReadError"
+    },
+    {
+      "id": "95c72bbc-6b44-4d6f-aeed-162afb8bbcac",
+      "status": "ok",
+      "time_to_brief_ms": 530,
+      "metrics": {
+        "processing_ms": 3,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    },
+    {
+      "status": "request_error",
+      "error_type": "ReadError"
+    }
+  ]
+}

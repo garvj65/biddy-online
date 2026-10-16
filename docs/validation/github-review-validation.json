@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-16",
+  "backend_tests_passed": 31,
+  "frontend_tests_passed": 5,
+  "frontend_production_build": "passed",
+  "synthetic_eval_quality_gate": "passed",
+  "secret_pattern_scan": "no matches",
+  "live_provider_calls": "not run",
+  "browser_visual_qa": "not run",
+  "docker_and_local_postgres": "not run",
+  "scope": "Local review validation recorded before GitHub upload; see Actions for remote CI status.",
+  "repository": "https://github.com/garvj65/biddy-online"
+}

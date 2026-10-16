@@ -1,0 +1,124 @@
+{
+  "concurrency": 3,
+  "requests": 6,
+  "completed": 6,
+  "p50_ms": 1066.0,
+  "p95_ms": 1099,
+  "note": "Synthetic local load only. Includes queue wait and polling overhead. Unique text avoids cache hits.",
+  "runs": [
+    {
+      "id": "ecddc3d5-1aee-4b76-988c-5c5f6af4c23a",
+      "status": "ok",
+      "time_to_brief_ms": 1099,
+      "metrics": {
+        "processing_ms": 1,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    },
+    {
+      "id": "409dd7cb-4d54-47fe-b0e8-47fb5000fd12",
+      "status": "ok",
+      "time_to_brief_ms": 1085,
+      "metrics": {
+        "processing_ms": 4,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    },
+    {
+      "id": "3203ac26-d405-43bb-bccf-a586f71b6efe",
+      "status": "ok",
+      "time_to_brief_ms": 1078,
+      "metrics": {
+        "processing_ms": 1,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    },
+    {
+      "id": "40a3c23f-b4b4-4e57-a195-993363a20451",
+      "status": "ok",
+      "time_to_brief_ms": 1054,
+      "metrics": {
+        "processing_ms": 4,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    },
+    {
+      "id": "8916c18d-83e4-4aa1-94b2-c80d3509b725",
+      "status": "ok",
+      "time_to_brief_ms": 1050,
+      "metrics": {
+        "processing_ms": 1,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    },
+    {
+      "id": "3b19243e-05db-4db5-9f63-4e8952fc0b6d",
+      "status": "ok",
+      "time_to_brief_ms": 1043,
+      "metrics": {
+        "processing_ms": 3,
+        "chunks": 1,
+        "verified_facts": 3,
+        "rejected_facts": 0,
+        "usage": [
+          {}
+        ],
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0,
+        "cost_basis": "no model calls",
+        "cache_hit": false
+      }
+    }
+  ]
+}
